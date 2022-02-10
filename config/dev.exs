@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :elixir_microservice, ElixirMicroservice.Repo,
-  username: "brandon",
-  password: "",
-  database: "elixir_microservice_dev",
-  hostname: "db",
+  username: "promote",
+  password: "promote",
+  database: "elixir_gateway_dev",
+  hostname: "db_gateway",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
